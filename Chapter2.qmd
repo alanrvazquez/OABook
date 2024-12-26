@@ -75,6 +75,16 @@ and determine the strength using the function of the previous exercise.
 -   OA($16, 4 \times 2^3, 2$).
 -   OA($16, 4 \times 2^3, 3$).
 
+5. Case study one that needs an orthogonal array.
 
+6. Case study two that needs an orthogonal array.
+
+7. Case study three that needs an orthogonal array?
+
+8. Another type of collapsing: Strong OAs
+
+9. Applications on OAs.
+
+10. Another problem?
 
 ### References
