@@ -24,7 +24,7 @@ Many of the exercises in this book use the Python `oapackage` [@Eendebak2019]. Y
 # pip install oapackage
 ```
 
-At the start of most of the programs, you need to import the package with `import oapackage`. We like to abbreviate lengthy names using 
+At the start of most of the programs, you need to import the package with `import oapackage`. We like to abbreviate lengthy names using
 
 ```{python}
 # import oapackage as oap
@@ -34,25 +34,20 @@ So whenever you see `oap` in the book or in the programs, you now know where it 
 
 Once installed and imported, you can use all kinds of convenient functions for the characterization and enumeration of the arrays. A few additional functions are provided in `oafunctions.py`. We use `import oafunctions as oaf` in our programs.
 
-## Problem 1. A function to determine the strength of an array
+1. The function `strength` in `oafunctions.py` takes an array as input and returns the strength of the array. Have a look at this function and explain how the function works. After that, answer the following questions:
 
-The function `strength` in `oafunctions.py` takes an array as input and returns the strength of the array. Have a look at this function.
+-   What would a strength of 1 imply? What a strength of 0?
+-   Does a strength-4 array also have strength 3?
+-   Can you detect a strength greater than 4 with the program?
 
-- Explain how the function works.
-- What would a strength of 1 imply? What a strength of 0?
-- Does a strength-4 array also have strength 3?
-- Can you detect a strength greater than 4 with the program?
+2. In many exercises, you need to read files with orthogonal arrays to do something with them. The files all have a special structure that permit easy reading by the function `oap.readarrayfile`. In particular, this is how we arranged all the files:
 
-## Problem 2. Reading a file with orthogonal arrays
-
-In many exercises, you need to read files with orthogonal arrays to do something with them. The files all have a special structure that permit easy reading by the function `oap.readarrayfile`. In particular, this is how we arranged all the files:
-
-- First line: 3 numbers specifying $c$:\# columns of a single array, $r$: \# rows of a single array and $a$:\# orthogonal arrays in the file.
-- Line 2: ID of the first array.
-- Line 3 up to $(2+r)$: the first array.
-- $\vdots$
-- Line $2+a(r+1)-r$ up to $1+a(r+1)$: array \#a.
-- Last line: -1.
+-   First line: 3 numbers specifying $c$:# columns of a single array, $r$: \# rows of a single array and $a$:# orthogonal arrays in the file.
+-   Line 2: ID of the first array.
+-   Line 3 up to $(2+r)$: the first array.
+-   $\vdots$
+-   Line $2+a(r+1)-r$ up to $1+a(r+1)$: array #a.
+-   Last line: -1.
 
 We assume that the symbols in any column of an array are coded $0,1,\ldots,(s-1)$, where $s$ is the number of different symbols in that column.
 
@@ -62,7 +57,7 @@ The file "result-12.2-2-2-2-2-2.oa" contains two different OA(12, $2^6$, 2). Che
 #N12n6 = oap.readarrayfile(`result-12.2-2-2-2-2-2.oa')
 ```
 
-The command returns a tuple called `N12n6` with two so-called `array_link` objects. Don't worry! They don't bite. We will gently introduce them later on. For now, turn, say, the second of them into a `numpy` array with 
+The command returns a tuple called `N12n6` with two so-called `array_link` objects. Don't worry! They don't bite. We will gently introduce them later on. For now, turn, say, the second of them into a `numpy` array with
 
 ```{python}
 # A = np.array(N12n6[1]) 
@@ -70,16 +65,16 @@ The command returns a tuple called `N12n6` with two so-called `array_link` objec
 
 and determine the strength using the function of the previous exercise.
 
+3. Consider pure-level arrays with level numbers $s=2,3,4$.
+
+-   Make a table with the smallest possible run sizes for arrays with strength $2 \le t \le 4$.
+-   What is the smallest possible run size for an OA($N, 4\times 3 \times 2^4, 3$)?
+
+4. Construct the following OAs by hand. 
+
+-   OA($16, 4 \times 2^3, 2$).
+-   OA($16, 4 \times 2^3, 3$).
 
 
-## Problem 3. Minimal run sizes
 
-Consider pure-level arrays with level numbers $s=2,3,4$.
-
-- Make a table with the smallest possible run sizes for arrays with strength $2 \le t \le 4$.
-- What is the smallest possible run size for an OA($N, 4\times 3 \times 2^4, 3$)?
-
-## Problem 4. Construction by hand
-
-- Construct an OA($16, 4 \times 2^3, 2$).
-- Construct an OA($16, 4 \times 2^3, 3$).
+### References
