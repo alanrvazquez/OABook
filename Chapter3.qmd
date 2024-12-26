@@ -52,6 +52,7 @@ If you use a different set of main-effect contrast vectors, the correlations bet
 
 - In the five 18-run designs of `OA18mixed.oa`, switch the labels `1' and `2' for the three-level factors. Show that the Helmert contrast vectors constructed from the relabeled factors are equivalent to the linear and quadratic contrast vectors for the original factors. Check the correlations between main-effect and interaction contrast vectors for the original as well as for the relabeled factors.
 
+
 3. This exercise continues with the 18-run designs of `OA18mixed.oa` and the 48-run designs of `OA48.oa`.
 
 - Calculate the sums of squared correlations between main-effect contrast vectors and interaction contrast vectors, $SSC_{3}$, for the five 18-run designs. Which design is best?
