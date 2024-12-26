@@ -20,9 +20,7 @@ import numpy as np
 
 # Excercises
 
-## Problem 1. A function to determine main-effect and interaction contrast vectors
-
-The function `oaf.contrast` takes an array as input and returns two sets of contrast vectors as outputs. The first set includes the main-effect contrast vectors and the second set includes the two-factor interaction contrast vectors. For example, 
+1. The function `oaf.contrast` takes an array as input and returns two sets of contrast vectors as outputs. The first set includes the main-effect contrast vectors and the second set includes the two-factor interaction contrast vectors. For example, 
 
 ```{python}
 # X1,X2 = oaf.contrast(Array)
@@ -37,9 +35,7 @@ The main-effect contrast vectors are Helmert contrast vectors. A factor with $s$
 - The  file `OA48.oa` includes 19 different OA($48; 4 \times 3\times 2^4; 3$). Take one of these OAs. Check that the main-effect contrast vectors are orthogonal to each other. Also check that the main-effect contrast vectors are orthogonal to the interaction contrast vectors.
 
 
-## Problem 2. Correlation between contrast vectors
-
-Consider the random variables $X$ and $Y$. The correlation between these variables, designated $\rho_{XY}$ is defined as
+2. Consider the random variables $X$ and $Y$. The correlation between these variables, designated $\rho_{XY}$ is defined as
 $$
 \rho_{XY}=\frac{E(X - EX)(Y-EY)}{\sqrt{E(X-EX)^2E(Y-EY)^2}},
 $$
@@ -52,18 +48,19 @@ where $E(.)$ is the expectation operator.
 - Study the maximum absolute correlations between main-effect contrast vectors and interaction contrast vectors in the five 18-run designs of `OA18mixed.oa`. Which design has the smallest maximum correlation?
 - Study the maximum absolute correlations among interaction contrast vectors in the 19 48-run designs of `OA48.oa`. Which design has the smallest maximum correlation?
 
-
 If you use a different set of main-effect contrast vectors, the correlations between these vectors and the interaction contrast vectors calculated from them, and those among the interaction contrast vectors, are changed.
-
 
 - In the five 18-run designs of `OA18mixed.oa`, switch the labels `1' and `2' for the three-level factors. Show that the Helmert contrast vectors constructed from the relabeled factors are equivalent to the linear and quadratic contrast vectors for the original factors. Check the correlations between main-effect and interaction contrast vectors for the original as well as for the relabeled factors.
 
-## Problem 3. Sums of squared correlations
-
-This exercise continues with the 18-run designs of `OA18mixed.oa` and the 48-run designs of `OA48.oa`.
+3. This exercise continues with the 18-run designs of `OA18mixed.oa` and the 48-run designs of `OA48.oa`.
 
 - Calculate the sums of squared correlations between main-effect contrast vectors and interaction contrast vectors, $SSC_{3}$, for the five 18-run designs. Which design is best?
 - Calculate the sums of squared correlations among interaction contrast vectors, $SSC_4$, for the 19 48-run designs. If you use the $p_2 \times p_2$ matrix of correlations, only use one off the off-diagonal pieces of the matrix. Which design is best?
 
 
 As explained in Section 3.2.1, $SSC_{3}/3$ is called the word count of length 3 and indicated with $A_3$. The divisor of 3 is because each product of three main-effect contrast vectors occurs three times in the matrix $X_1^TX_2$. As explained in Section 3.2.2, the quantity $SSC_4/3$  is called the word count of length 4 and indicated with $A_4$. The divisor of 3 is because each set of four main-effect contrast vectors can be partitioned in three different ways into two pairs. The corresponding three pairs of interaction contrast vectors have the same correlation. $A_3$ and $A_4$ do not depend on the set of normalized orthogonal contrasts used [@Xu2001]. So they can be used as an overall measure expressing the correlations between main-effect contrast vectors and interaction contrast vectors or among interaction contrast vectors.
+
+
+4. Data analysis and interpretation using different types of contrast vectors.
+
+### References
