@@ -72,24 +72,25 @@ and determine the strength using the function of the previous exercise.
 
 4.  Construct the following OAs by hand or show that the array does not exist.
 
--   $OA(16, 4^2 2; 2)$.
+-   $OA(16, 4^2 2^1; 2)$.
 -   $OA(16, 4^2  2^2; 3)$.
 -   $OA(16, 4^1  2^3; 2)$.
 -   $OA(16, 4^1  2^3; 3)$.
 -   $OA(18, 3^2 2^2; 2)$.
 
-6.  Case study one that needs an orthogonal array. $OA(9, 3^4; 2)$
+5.  The research and development team of an important company is investigating the biological decolorization of Malachite Green, a hazardous industrial dye. The goal of this project is to optimize the conditions for effective removal of color from dye-bearing wastewater using a biodegradation system. Previous research has shown that the process of color removal by biodegradation can be complex and influenced by various 
+operational parameters. To better understand the interactions between these factors and their impact on decolorization efficiency, the laboratory aims to investigate three critical variables that are described as follows. The first variable is the temperature at 5, 15, 25, and 35 $^oC$. The second variable is dye concentration at 2.5, 5, 10, 12.5 $mg l^-1$. The third variable is the algae type: Chlamydomonas, Euglena, Cosmarium, and Chlorella. All the experimental tests will use a pH of 6. Design the experiment using an orthogonal array with 16 runs. *Answer*: $OA(16, 4^3; 2)$
 
-7.  Case study two that needs an orthogonal array. $OA(18, 6^1 3^3; 2)$
+6.  The microbiology laboratory at a large hospital is facing a challenging outbreak of Pseudomonas aeruginosa (P. aeruginosa) infections among its patients. To better understand the spread and control the infection, the lab wants to genotype this bacterium using the AP^PCR (Amplified Fragment Length Polymorphism) typing technique. The AP^PCR technique is a molecular biology method that amplifies specific DNA fragments to detect variations in the bacterial genome. However, to achieve reliable and accurate results, it's essential to optimize the reaction conditions. After consulting with experts in the field, the lab has identified four critical factors that might affect the AP^PCR typing performance. The first factor is **Mg2þ concentration**, which is the amount of magnesium ions in the reaction mixture. The second factor is the **nucleotide concentration**, which is the amount of nucleotides available for amplification. The third factor is the **primers (CagA2+CMVin2) concentration**, meaning the amount of primer molecules used to target specific DNA sequences. The last factor is the **DNA template concentration**. Specifically, it is the initial amount of P. aeruginosa DNA in the reaction mixture. Each of the four factors will be studied at three different levels. Design the experiment using an orthogonal array with 9 runs. *Answer*: $OA(9, 3^4; 2)$
 
-8.  Case study three that needs an orthogonal array?
+7.  A group of scientists is developing an Enzyme-Linked Immunosorbent Assay (ELISA) system for detecting phages expressing specific antibodies. The goal of this project is to optimize the ELISA protocol to achieve high sensitivity and specificity in phage detection. To date, significant variation exists in the ELISA protocols used across different laboratories, making it  essential to tailor the method to the specific application. In this case, the laboratory aims to develop an optimized ELISA system for detecting phages expressing a ScFv monoclonal antibody against adenovirus hexon protein. The research team has identified four critical factors that may impact the performance of the ELISA system. The first factor is the Phage concentration in coat buffer, which will be studied at 6300, 630, 157, 63, 6.3, and 0.063 ng/ml. The second  factor is the dilution of anti-phage polyclonal antibody at 1/5000, 1/10000, and 1/20000 mol/L. The third factor is the dilution of anti-rabbit biotinylated antibody at 1/5000, 1/10000, and 1/20000 mol/L. The fourth factor is the development time of the OPD substrate, which will be tested at 5, 8, and 12 min. Design the experiment using an orthogonal array with 18 runs. *Answer*: $OA(18, 6^1 3^3; 2)$
 
-9. Foldover of a three-level design. Show that you start from strength two and you arrive at a strength three array.
+8. Foldover of a three-level design. Show that you start from strength two and you arrive at a strength three array.
 
-10. Split a two-level fractional factorial design. Split according to a basic column and to a generated column and see if you get an OA of strength 2. 
+9. Split a two-level fractional factorial design. Split according to a basic column and to a generated column and see if you get an OA of strength 2. 
 
-11. Excercise on collapsing in Section 2.3. 
+10. Excercise on collapsing in Section 2.3. 
 
-12.  Another type of collapsing: Strong OAs
+11.  Another type of collapsing: Strong OAs
 
 ### References
