@@ -87,10 +87,96 @@ operational parameters. To better understand the interactions between these fact
 
 8. Foldover of a three-level design. Show that you start from strength two and you arrive at a strength three array.
 
-9. Split a two-level fractional factorial design. Split according to a basic column and to a generated column and see if you get an OA of strength 2. 
+9. Consider two OAs with eight runs and four factors in @tbl-oa1 and @tbl-oa2.
 
-10. Excercise on collapsing in Section 2.3. 
+- Use vertical splitting in each column of @tbl-oa1 to produce a pair of arrays with three factors and four runs. Are all these pairs of arrays OAs of strength 2?
 
-11.  Another type of collapsing: Strong OAs
+- Similarly, apply vertical splitting to each column of @tbl-oa2 to produce smaller arrays. Are all these pairs of arrays OAs of strength 2?
+
+- Explain why is that the different OAs in @tbl-oa1 and @tbl-oa2 result in better and worse OAs.
+
+::: {#tbl-oa1}
+```{=latex}
+\begin{table}
+\begin{center}
+\begin{tabular}{cccc}
+0	&	1	&	1	&	0 \\
+1	&	0	&	1	&	0  \\
+0	&	0	&	0	&	0  \\
+1	&	1	&	0	&	0  \\
+0	&	1	&	0	&	1  \\
+1	&	0	&	0	&	1  \\
+0	&	0	&	1	&	1  \\
+1	&	1	&	1	&	1  \\
+\end{tabular}
+\end{center}
+\end{table}
+```
+An orthogonal array with 8 runs and four two-level factors.
+:::
+
+::: {#tbl-oa2}
+```{=latex}
+\begin{table}
+\begin{center}
+\begin{tabular}{cccc}
+0	&	1	&	1	&	0 \\
+1	&	0	&	1	&	0 \\
+0	&	0	&	0	&	1 \\
+1	&	1	&	0	&	1 \\
+0	&	1	&	0	&	0 \\
+1	&	0	&	0	&	0 \\
+0	&	0	&	1	&	1 \\
+1	&	1	&	1	&	1 \\
+\end{tabular}
+\end{center}
+\end{table}
+```
+Another orthogonal array with 8 runs and four two-level factors.
+:::
+
+
+
+10. Exercise on collapsing in Section 2.3. 
+
+11.  This problem illustrates another type of collapsing.
+
+- Consider the $OA(16, 4^4; 2)$ in @tbl-soa. Check that the OA has a strength of 2.
+
+::: {#tbl-soa}
+```{=latex}
+\begin{table}
+\begin{center}
+\begin{tabular}{cccc}
+2	&	2	&	2	&	2	\\
+1	&	1	&	1	&	2	\\
+0	&	2	&	2	&	1	\\
+3	&	1	&	1	&	1	\\
+2	&	0	&	2	&	0	\\
+1	&	3	&	1	&	0	\\
+0	&	0	&	2	&	3	\\
+3	&	3	&	1	&	3	\\
+2	&	2	&	0	&	2	\\
+1	&	1	&	3	&	2	\\
+0	&	2	&	0	&	1	\\
+3	&	1	&	3	&	1	\\
+2	&	0	&	0	&	0	\\
+1	&	3	&	3	&	0	\\
+0	&	0	&	0	&	3	\\
+3	&	3	&	3	&	3	\\
+\end{tabular}
+\end{center}
+\end{table}
+```
+An orthogonal array with 16 runs and 4 four-level factors.
+:::
+
+- Collapse the first two four-level columns into two two-level columns as follows: $0, 1 \rightarrow 0$ and $2, 3 \rightarrow 1$. Check that the resulting array is a $OA(16, 4^2 2^2; 2)$
+
+- Collapse the other two four-level columns into two-level columns using the same collapsing as before. Check that the resulting array is now an $OA(16, 2^4; 2)$.
+
+The OA just created is known as an strong orthogonal array. We refer to for more details on these OAs. 
+
+
 
 ### References
