@@ -70,27 +70,26 @@ and determine the strength using the function of the previous exercise.
 -   Make a table with the smallest possible run sizes for arrays with strength $2 \le t \le 4$.
 -   What is the smallest possible run size for an OA($N, 4\times 3 \times 2^4, 3$)?
 
-4.  Construct the following OAs by hand.
+4.  Construct the following OAs by hand or show that the array does not exist.
 
--   OA($16, 4 \times 2^3, 2$).
--   OA($16, 4 \times 2^3, 3$).
+-   $OA(16, 4^2 2; 2)$.
+-   $OA(16, 4^2  2^2; 3)$.
+-   $OA(16, 4^1  2^3; 2)$.
+-   $OA(16, 4^1  2^3; 3)$.
+-   $OA(18, 3^2 2^2; 2)$.
 
-5. Show that an $OA(18, 3^2 2^2,; 2)$ does not exist.
+6.  Case study one that needs an orthogonal array. $OA(9, 3^4; 2)$
 
-6.  Case study one that needs an orthogonal array.
-
-7.  Case study two that needs an orthogonal array.
+7.  Case study two that needs an orthogonal array. $OA(18, 6^1 3^3; 2)$
 
 8.  Case study three that needs an orthogonal array?
 
-9.  Another type of collapsing: Strong OAs
+9. Foldover of a three-level design. Show that you start from strength two and you arrive at a strength three array.
 
-10.  Applications on OAs.
+10. Split a two-level fractional factorial design. Split according to a basic column and to a generated column and see if you get an OA of strength 2. 
 
-12. Foldover of a three-level design. Show that you start from strength two and you arrive at a strength three array.
+11. Excercise on collapsing in Section 2.3. 
 
-13. Split a two-level fractional factorial design. Split according to a basic column and to a generated column and see if you get an OA of strength 2. 
-
-14. Excercise on collapsing in Section 2.3. 
+12.  Another type of collapsing: Strong OAs
 
 ### References
