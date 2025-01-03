@@ -175,7 +175,7 @@ An orthogonal array with 16 runs and 4 four-level factors.
 
 - Collapse the other two four-level columns into two-level columns using the same collapsing as before. Check that the resulting array is now an $OA(16, 2^4; 2)$.
 
-The OA just created is known as an strong orthogonal array. We refer to for more details on these OAs. 
+The OA just created is known as an strong orthogonal array. We refer to @he2013strong for more details on these OAs. 
 
 
 
