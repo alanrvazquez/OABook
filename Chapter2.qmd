@@ -68,9 +68,9 @@ and determine the strength using the function of the previous exercise.
 3.  Consider pure-level arrays with level numbers $s=2,3,4$.
 
 -   Make a table with the smallest possible run sizes for arrays with strength $2 \le t \le 4$.
--   What is the smallest possible run size for an OA($N, 4\times 3 \times 2^4, 3$)?
+-   What is the smallest possible run size for an OA($N, 4 3 2^4, 3$)?
 
-4.  Construct the following OAs by hand or show that the array does not exist.
+4.  Construct the following OAs or show that the array does not exist.
 
 -   $OA(16, 4^2 2^1; 2)$.
 -   $OA(16, 4^2  2^2; 3)$.
