@@ -1,0 +1,46 @@
+---
+title: "Chapter 4"
+author: 
+  - name: Alan R. Vazquez
+    orcid: 0000-0002-3658-0911
+    email: alanrvazquez@gmail.com
+    affiliations:
+      - name: Tecnologico de Monterrey
+bibliography: literature.bib 
+format: pdf
+editor: visual
+jupyter: python3
+---
+
+# Excercises
+
+```{python}
+import numpy as np
+```
+
+# Excercises
+
+1. The function `oap.GWLPmixed()` calculates word counts of length $0,\ldots,n$, where $n$ is the number of factors. Its input is an orthogonal array and its output is the sequence of word counts.
+The file `OA16mixed.oa` includes three $OA(16; 4 \times 2^8; 2)$.
+
+- Calculate ($A_3,A_4$) for the three designs.
+- What design is best regarding estimation of a main-effects only model?
+- Suppose that there is no interaction between the four-level factor and the two-level factors. What design is best in that case?
+
+
+2. The function `projB3` calculates the $A_3$ values for all three-factor subsets of the input array. It returns a matrix with two columns. The first one contains the different $A_3$ values and the second one the frequencies of the respective values. In this exercise, you are to evaluate four different $OA(18;3^6;2)$ contained within `OA18pure.m`.
+
+- Calculate ($A_3,A_4$) for the four designs.
+- Calculate the projection $A_3$ frequency vectors with the new function.
+- Suppose that you are required to choose one of these designs for a real-life experiment in six three-level factors. Suppose further that experimenters assure you that at most three out of the six factors can be active. Which of the four designs is best?
+- Suppose that at most two factors can be active. Which of the four designs is best?
+
+
+3. There are 27 different $OA(16;2^6;2)$. You can find them in the file `result-16.2-2-2-2-2-2.oa`. The designs might be used to estimate all main effects and a subset of a few two-factor interactions. Not all the designs perform equally well here. One possible criterion to express their performance is the estimation capacity, which is a scalar discussed in Section 4.5. A related criterion is the estimation capacity sequence. This is the fraction of estimable models with all main effects and $j,\ldots,k$ interactions, denoted ($EC_j,\ldots,EC_k$). The function `oaf.ECIC` calculates this vector for pure-level arrays. The required input is a tuple of `arraylink` objects, as created by the `oap.readarrayfile` function. By default, $j=1$ and $k=3$.
+
+- Load the designs and calculate ($EC_1,\ldots,EC_3$). Which design do you prefer?
+
+
+
+
+### References
