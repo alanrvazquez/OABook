@@ -12,11 +12,12 @@ editor: visual
 jupyter: python3
 ---
 
-# Excercises
 
 ```{python}
 import numpy as np
 ```
+
+# Excercises
 
 Many of the exercises in this book use the Python `oapackage` [@Eendebak2019]. You may need to install the package first by
 
@@ -78,8 +79,7 @@ and determine the strength using the function of the previous exercise.
 -   $OA(16, 4^1  2^3; 3)$.
 -   $OA(18, 3^2 2^2; 2)$.
 
-5.  The research and development team of an important company is investigating the biological decolorization of Malachite Green, a hazardous industrial dye. The goal of this project is to optimize the conditions for effective removal of color from dye-bearing wastewater using a biodegradation system. Previous research has shown that the process of color removal by biodegradation can be complex and influenced by various 
-operational parameters. To better understand the interactions between these factors and their impact on decolorization efficiency, the laboratory aims to investigate three critical variables that are described as follows. The first variable is the temperature at 5, 15, 25, and 35 $^oC$. The second variable is dye concentration at 2.5, 5, 10, 12.5 $mg l^-1$. The third variable is the algae type: Chlamydomonas, Euglena, Cosmarium, and Chlorella. All the experimental tests will use a pH of 6. Design the experiment using an orthogonal array with 16 runs. *Answer*: $OA(16, 4^3; 2)$
+5.  The research and development team of an important company is investigating the biological decolorization of Malachite Green, a hazardous industrial dye. The goal of this project is to optimize the conditions for effective removal of color from dye-bearing wastewater using a biodegradation system. Previous research has shown that the process of color removal by biodegradation can be complex and influenced by various operational parameters. To better understand the interactions between these factors and their impact on decolorization efficiency, the laboratory aims to investigate three critical variables that are described as follows. The first variable is the temperature at 5, 15, 25, and 35 $^oC$. The second variable is dye concentration at 2.5, 5, 10, 12.5 $mg l^{-1}$. The third variable is the algae type: Chlamydomonas, Euglena, Cosmarium, and Chlorella. All the experimental tests will use a pH of 6. Design the experiment using an orthogonal array with 16 runs. *Answer*: $OA(16, 4^3; 2)$
 
 6.  The microbiology laboratory at a large hospital is facing a challenging outbreak of Pseudomonas aeruginosa (P. aeruginosa) infections among its patients. To better understand the spread and control the infection, the lab wants to genotype this bacterium using the AP^PCR (Amplified Fragment Length Polymorphism) typing technique. The AP^PCR technique is a molecular biology method that amplifies specific DNA fragments to detect variations in the bacterial genome. However, to achieve reliable and accurate results, it's essential to optimize the reaction conditions. After consulting with experts in the field, the lab has identified four critical factors that might affect the AP^PCR typing performance. The first factor is **Mg2þ concentration**, which is the amount of magnesium ions in the reaction mixture. The second factor is the **nucleotide concentration**, which is the amount of nucleotides available for amplification. The third factor is the **primers (CagA2+CMVin2) concentration**, meaning the amount of primer molecules used to target specific DNA sequences. The last factor is the **DNA template concentration**. Specifically, it is the initial amount of P. aeruginosa DNA in the reaction mixture. Each of the four factors will be studied at three different levels. Design the experiment using an orthogonal array with 9 runs. *Answer*: $OA(9, 3^4; 2)$
 
